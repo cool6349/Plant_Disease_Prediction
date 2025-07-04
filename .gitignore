@@ -1,0 +1,70 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.sqlite3
+*.db
+*.log
+*.tmp
+*.swp
+.ipynb_checkpoints/
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+myenv/
+
+# === Machine Learning Model Files ===
+*.h5
+*.hdf5
+*.pb
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.tflite
+models/
+Saved.model/
+model_v1.h5
+
+# === Node.js (React frontend) ===
+node_modules/
+dist/
+build/
+.temp/
+.cache/
+*.log
+*.lock
+*.local
+
+# === IDE & OS Files ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# === Secrets ===
+.env
+*.env
+
+# === Deployment files (if any) ===
+*.bak
+*.orig
+*.old
+
+
+Tomato_img/
+corn1/data/
+PlantVillage/
