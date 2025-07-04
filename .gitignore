@@ -24,7 +24,6 @@ env.bak/
 # ============================
 # Machine Learning Artifacts
 # ============================
-# Model weights and checkpoints
 *.h5
 *.hdf5
 *.hdf
@@ -36,11 +35,9 @@ env.bak/
 *.ckpt
 *.tflite
 
-# TensorBoard logs
 logs/
 tensorboard_logs/
 
-# ML folders
 models/
 checkpoints/
 Saved.model/
@@ -50,15 +47,15 @@ outputs/
 # ============================
 # Datasets & Images
 # ============================
-# Ignore image files
-*.jpg
-*.jpeg
-*.png
+# Ignore all images
 *.bmp
 *.tiff
 *.webp
+*.jpg
+*.jpeg
+*.png
 
-# Ignore image/video folders
+# Ignore large data folders
 images/
 image_data/
 uploads/
@@ -68,6 +65,15 @@ PlantVillage/
 Tomato_img/
 corn/data/
 Training/
+
+# BUT allow screenshots in assets/
+!assets/
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+!screenshots/
+!screenshots/*.png
+!screenshots/*.jpg
 
 # ============================
 # React / Frontend (if used)
