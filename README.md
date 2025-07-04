@@ -85,11 +85,11 @@ npm start
 ## 📸 Screenshots
 
 ### 🔍 Prediction Interface
-![Prediction UI](assets/Screenshot (362).png)
-![Prediction UI](assets/Screenshot (363).png)
-![Prediction UI](assets/Screenshot (364).png)
-![Prediction UI](assets/Screenshot (365).png)
-![Prediction UI](assets/Screenshot (366).png)
+(assets/Screenshot (362).png)
+(assets/Screenshot (363).png)
+(assets/Screenshot (364).png)
+(assets/Screenshot (365).png)
+(assets/Screenshot (366).png)
 
 ### 📚 Disease Info Page
 ![Disease Details](assets/Screenshot (368).png)
